@@ -21,5 +21,7 @@ from personal import views
 urlpatterns = [
 	url(r'^$', views.home, name='home'),
 	url(r'^about/', views.about, name='about'),
+	url(r'^resume/', views.resume, name='resume'),
+	url(r'^contact/', views.contact, name='contact'),
     url(r'^admin/', admin.site.urls),
 ]
